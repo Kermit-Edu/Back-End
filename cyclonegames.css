@@ -11,13 +11,13 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(55, 207, 237) 35%, rgb
     left: 50%;
     transform: translate(-30%, -15%);
     font-size: 35px;
-    font-family:'WrathStyles', sem serifa;
+    font-family:'WrathStyles;
     color: aliceblue;
 
 }
 
 @font-face {
-    font-family:'WrathStyles', sem serifa ;
+    font-family:'WrathStyles';
     src: url(WrathStyles.ttf);
 }
 
