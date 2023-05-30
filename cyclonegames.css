@@ -25,3 +25,49 @@ main{
     width: 940px;
     margin: auto;
 }
+form label, form p{
+
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 30px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: darkgreen;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: greenyellow;
+    transform: scale(1.2);
+}
+.copyright{
+    color: #FFFF;
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+footer{
+    text-align: center;
+    background-image: url("bg.jpg");
+    padding: 10px 0;
+}
+#logo1{
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}
