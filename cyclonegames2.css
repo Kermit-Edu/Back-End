@@ -44,6 +44,12 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(55, 207, 237) 35%, rgb
 
 }
 
+rav{
+    position: absolute;
+    /*posicionamento dos links*/
+    top: 180px;
+    right: 50px;
+
 main{
     width: 940px;
     margin: auto;
