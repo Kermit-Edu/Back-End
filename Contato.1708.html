@@ -1,68 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>CSS Externo - Formulário 13/04, 03/05</title>
-    <title>Cadastro do aluno</title>
-    <link rel="stylesheet" href="style.css">
+    <title> Formulário 17/08</title>
+    <form method="port" action="">
+    Nome:<input type="text" size=80 maxlenght=70 placeholder="digite seu nome" name="name">
+    Data nascimento:<input type="date">
+    RG:<input type="number" size=10 placeholder="digite sem ponto" required name="RG">
+    Email:<input type="email" size=80 name="email">
+    Telefone:<input type="tel" name="telefone">
+    Senha:<input type="password" name="senha" size=10 maxlenght=10>
+    Curso:<input type="checkbox" name="curso" value="Administração">
+    <input type="checkbox" name="curso" value="Desenvolvimento Sist">
+    <input type="checkbox" name="curso" value="Eletronica">
+    Periodo:<select name="cidade">
+             <option>Cascavel</option>
+             <option>Corbelha</option>
+             <option>Penha</option>
+            </select>
+<textarea rows=30 cols=40>
+    Observação
+</textarea>  
+
+<img src="nome.jpg" Alt="logoCeep">
+<a href="www.ceep.com.br"> site da escola</a>
+<input type="Reset" value="Apagar dados">
+<input type="Submit" value="gravar dados">
+    
+    </form>
+
 </head>
-        <section class="box">
-            <form>
-                <fieldset>
-                    <legend><strong>Formulário de Clientes</strong></legend>
-                    <legend><strong>Cadastro do aluno</strong></legend>
-                    <br>
-
-                    <section class="inputBox">
-                    </section>
-                    <br><br>
-
-                    <section class="inputBox">
-                        <input type="text" name="email" id="email" class="inputUser" required>
-                        <label for="email" class="labelinput">Email</label>
-                    </section>
-                    <br><br>
-
-                    <section class="inputBox">
-                        <input type="text" name="telefone" id="telefone" class="inputUser" required>
-                        <label for="telefone" class="labelinput">Telefone</label>
-                    </section>
-
-                    <p>Sexo</p>
-                    <input type="radio" id="feminino" name="genero" value="feminino" required>
-                    <label for="feminino">Feminino</label>
-                    <br>
-
-                    <input type="radio" id="masculino" name="genero" value="masculino" required>
-                    <label for="masculino">Masculino</label>
-                    <br>
-
-                    <input type="radio" id="outro" name="genero" value="outro" required>
-                    <label for="outro">Outro</label>
-                    <br><br>
-
-                    <label for="data_nascimento"><strong>Ano de Nascimento</strong></label>
-                    <input type="date" name="data_nascimento" id="data_nascimento" required>
-                    <br><br><br>
-
-                    <section class="inputBox">
-                        <input type="text" name="cidade" id="cidade" class="inputUser" required>
-                        <label for="cidade" class="labelinput">Cidade</label>
-                    </section>
-                    <br><br>
-
-                    <section class="inputBox">
-                        <input type="text" name="estado" id="estado" class="inputUser" required>
-                        <label for="estado" class="labelinput">Estado</label>
-                    </section>
-                    <br><br>
-
-                    <section class="inputBox">
-                        <input type="text" name="endereco" id="endereco" class="inputUser" required>
-                        <label for="endereco" class="labelinput">Endereço</label>
-                    </section>
-                    <br><br>
-
-                    <input type="submit" value="Enviar Formulário" id="enviar" </fieldset>
-                    <input type="submit" value="Apagar Formulario" id="apagar" </fieldset>
-            </form>
-        </section>
-    </main>
+</html>
